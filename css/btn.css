@@ -1,0 +1,30 @@
+#btn1 {
+  position: relative;
+  width: 40px;
+  height: 16px;
+
+  border: 3px solid black;
+  border-radius: 50px;
+}
+#btn2 {
+  background: blue;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transition: .4s;
+}
+input {
+  display: none;
+}
+input:checked + #btn1 #btn2 {
+    margin-left: 24px;
+    background: red;
+    
+}
+
+.fundobody{
+    background: cyan;
+}

@@ -19,12 +19,12 @@ Body{
  
    
  }
- .theme-dark{
+.theme-dark{
     background:#000;
     color: #fff;
  
  }
- .navbar{
+.navbar{
    background:linear-gradient(to top,#2f11d5,#038b1a);
     border-radius: 0 0 50px 50px;
     width: 100%;
@@ -47,8 +47,9 @@ Body{
 }
 .btnColor{
   position: absolute;
-  width: 120px;
+  width: 90px;
   height: 100%;
+  left: 0;
   background: linear-gradient(to right, #000, rgb(143, 23, 199));
   border-radius: 30px;
   transition: .3s;
